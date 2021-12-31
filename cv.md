@@ -13,3 +13,35 @@ _Almost finished the course JavaScript Algorithms and Data Structures on the sit
 ###### Education<br>
 Vocational Pedagogical College named after Gagarin:<br>
 Specialty - Computer systems and complexes.
+###### Example one of my codes:<br>
+I solved the problem https://www.codewars.com/kata/5412509bd436bd33920011bc from the site Codewars.<br>
+This is my solve:
+```
+// return masked string
+function maskify(cc) {
+ let str = '';
+   if(!cc){
+   return str;
+ }
+   for(var i = cc.length-1; i>=cc.length-4;  i--)
+   {
+     if(!cc[i])
+     {
+       return str
+     }
+     else {
+       str = cc[i] + str;
+       }
+   }
+   for(i = cc.length-5; i >= 0;  i--){
+  if(!cc[i])
+  {
+    return str;
+  }
+  else{
+     str ='#' +str;
+  }
+}
+  return str;
+}
+```
