@@ -1,5 +1,5 @@
 ## Aleksandr Lobkov
-[cv photo](cv.jpg)
+![cv photo](cv.jpg)
 ###### Contacts of me:<br>
 Email: das149848@gmail.com<br>
 Discord: @alekism<br>
