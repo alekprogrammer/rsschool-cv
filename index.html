@@ -37,5 +37,47 @@
             <li>Basics C ++</li>
         </ol>
     </p>
+    <h2 class="headerp" id="education">
+        Education:
+    </h2>
+    <p class="mainp">
+        Vocational Pedagogical College named after Gagarin: Specialty - Computer systems and complexes.
+    </p>
+    <h2 class="headerp" id="example">
+        Example one of my codes:
+    </h2>
+    <p class="mainp">
+        I solved the problem <a href="https://www.codewars.com/kata/5412509bd436bd33920011bc">https://www.codewars.com/kata/5412509bd436bd33920011bc</a> from the site Codewars.<br> This is my solve:
+    </p>
+    <pre>
+        // return masked string
+        function maskify(cc) {
+         let str = '';
+           if(!cc){
+           return str;
+         }
+           for(var i = cc.length-1; i>=cc.length-4;  i--)
+           {
+             if(!cc[i])
+             {
+               return str
+             }
+             else {
+               str = cc[i] + str;
+               }
+           }
+           for(i = cc.length-5; i >= 0;  i--){
+          if(!cc[i])
+          {
+            return str;
+          }
+          else{
+             str ='#' +str;
+          }
+        }
+          return str;
+        }
+        </pre>
+</main>
 
 </html>
