@@ -1,3 +1,51 @@
-p {
-    color: red;
+.cvphoto {
+    width: 200px;
+}
+
+.photoindiv {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    font-style: italic;
+}
+
+nav {
+    text-align: center;
+    background-color: green;
+}
+
+.nava {
+    color: white;
+    margin: 10px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.headerp {
+    font-family: Verdana;
+    font-style: italic;
+}
+
+pre {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid;
+}
+
+footer {
+    padding-left: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: 1px solid;
+}
+
+.footerimg {
+    width: 200px;
 }
